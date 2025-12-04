@@ -20,17 +20,10 @@ public enum ObjetivoSuplemento {
         this.nombreVisible = nombreVisible;
     }
 
-    /**
-     * Devuelve el nombre amigable para la interfaz.
-     * @return El nombre visible del objetivo.
-     */
     public String getNombreVisible() {
         return nombreVisible;
     }
 
-    /**
-     * Sobrescribe toString para usar el nombre visible.
-     */
     @Override
     public String toString() {
         return nombreVisible;
