@@ -11,7 +11,6 @@ package com.farmacia.inventario;
 public class Medicamento extends ProductoFarmaceutico {
     private boolean requiereReceta;
 
-    // Constructor
     public Medicamento(String nombreComercial, String dosis, String fechaVencimiento, boolean requiereReceta)
             throws DatoInvalidoException {
         super(nombreComercial, dosis, fechaVencimiento);
